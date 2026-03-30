@@ -1,30 +1,195 @@
-# Open Source Software Audit: Git (Version Control System)
+Open Source Software Audit: Git
 
-This repository contains a technical audit and automated shell scripts developed for the **Capstone Project** at VIT Bhopal University. The project explores the origin, licensing, and Linux integration of Git, the world's most popular open-source version control system.
 
-##  Project Overview
-- **Audit Subject:** Git
-- **Environment:** Ubuntu 24.04 (WSL)
-- **License:** GNU GPL v2
-- **Tools Used:** Bash, Git, Dpkg, Grep, Awk
 
-##  Repository Contents
-This repository includes 5 automated shell scripts designed to audit the Linux environment and the Git package:
+This project is a \*\*Bash-based automation toolkit\*\* developed as part of a Capstone Project at VIT Bhopal University. It focuses on auditing the open-source software \*\*Git\*\* within a Linux (Ubuntu) environment, demonstrating key concepts of FOSS, system inspection, and shell scripting.
 
-1.  **`script1.sh` (System Identity):** Generates a report of the host system's kernel, uptime, and user identity.
-2.  **`script2.sh` (FOSS Inspector):** Verifies the installation of Git using `dpkg` and provides philosophical context.
-3.  **`script3.sh` (Disk & Permission Auditor):** Analyzes directory sizes and file permissions for Git binaries.
-4.  **`script4.sh` (Log Analyzer):** Simulates log parsing to identify system errors and warnings.
-5.  **`script5.sh` (Manifesto Generator):** An interactive script that generates a personalized Open Source Manifesto.
+# 
 
-##  How to Run
-To run these scripts on an Ubuntu/Debian system, follow these steps:
+# \---
 
-1. Clone the Repository:
-   ```b
-   git clone https://github.com/Aryawart-Gupta/OSS-Capstone-Audit
-   cd OSS-Capstone-Audit
-2. Grant Execution Permissions:
-   chmod +x *.sh
-3. Execute a script:
-   ./script1.sh
+# 
+
+# Project Overview
+
+# 
+
+* # Audit Subject:   Git (Version Control System)
+* # Environment:Ubuntu 24.04 (WSL)
+* # License: GNU GPL v2
+* # Tools \& Technologies:Bash, Git, Dpkg, Grep, Awk
+
+# 
+
+# This project explores how open-source tools integrate with Linux systems and provides automated scripts to analyze system configuration, software installation, and logs.
+
+# 
+
+# \---
+
+# 
+
+# Repository Contents
+
+# 
+
+# The project includes 5 shell scripts:
+
+# 
+
+# 1\. System Identity Report (`script1.sh`)
+
+# 
+
+# \*Displays system details like OS, kernel version, uptime, and user info.
+
+# 
+
+# 2\. FOSS Package Inspector (`script2.sh`)
+
+# 
+
+# \* Checks if Git is installed using `dpkg`
+
+# \* Displays version and description
+
+# \* Includes open-source philosophy notes
+
+# 
+
+# 3\. Disk \& Permission Auditor (`script3.sh`)
+
+# 
+
+# \* Analyzes directory sizes and permissions
+
+# \* Inspects Git core directory
+
+# 
+
+# 4\. Log File Analyzer (`script4.sh`)
+
+# 
+
+# \* Parses log files for errors/warnings
+
+# \* Counts keyword occurrences
+
+# \* Displays recent matching log entries
+
+# 
+
+# 5\. Manifesto Generator (`script5.sh`)
+
+# 
+
+# \* Interactive script to create a personalized Open Source Manifesto
+
+# \* Saves output to a text file
+
+# 
+
+# \---
+
+# 
+
+# How to Run
+
+# 
+
+# Follow these steps on Ubuntu/Debian:
+
+# 
+
+# ```bash
+
+# \# Clone the repository
+
+# git clone https://github.com/your-username/your-repo-name.git
+
+# 
+
+# \# Navigate into the project folder
+
+# cd your-repo-name
+
+# 
+
+# \# Give execution permissions
+
+# chmod +x \*.sh
+
+# 
+
+# \# Run any script
+
+# ./script1.sh
+
+# ```
+
+# \---
+
+# 
+
+# Key Features
+
+# 
+
+* # Fully automated Bash scripts
+* # Real-world Linux system auditing
+* # Hands-on FOSS exploration
+* # Log parsing and system analysis
+* # Interactive user input handling
+
+# 
+
+# \---
+
+# 
+
+# Learning Outcomes
+
+# 
+
+# \* Understanding of Open Source Software (FOSS)
+
+# \* Practical experience with Linux commands
+
+# \* Bash scripting and automation
+
+# \* Package management using `dpkg`
+
+# \* File permissions and system auditing
+
+# 
+
+# \---
+
+# 
+
+# Contributing
+
+# 
+
+# Contributions are welcome! Feel free to fork this repository and improve the scripts or add new features.
+
+# 
+
+# \---
+
+# 
+
+# License
+
+# 
+
+# This project is licensed under the \*\*GNU General Public License v2 (GPLv2)\*\*.
+
+# 
+
+# \---
+
+# 
+
+# 
+
