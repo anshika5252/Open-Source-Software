@@ -105,13 +105,13 @@ This project is a \*\*Bash-based automation toolkit\*\* developed as part of a C
 
 # \# Clone the repository
 
-# git clone https://github.com/your-username/your-repo-name.git
+# git clone https://github.com/anshika5252/Open-Source-Software.git
 
 # 
 
 # \# Navigate into the project folder
 
-# cd your-repo-name
+# cd Open-Source-Software
 
 # 
 
